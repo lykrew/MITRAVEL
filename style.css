@@ -1,0 +1,48 @@
+.wrapper {
+
+}
+
+.header {
+    background: black;
+}
+
+.header__container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.social__item {
+
+}
+
+.social__link {
+    
+}
+
+.header__logo img {
+    width: 123px;
+    height: 26px;
+}
+
+.burger__header {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 10px;
+    gap: 6px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.burger__line {
+    width: 48px;
+    height: 2px;
+    background: #FFFFFF;
+}
